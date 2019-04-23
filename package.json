@@ -1,5 +1,5 @@
 {
-  "name": "express-permission",
+  "name": "express-permission-middleware",
   "version": "1.0.0",
   "description": "express permission middleware",
   "main": "index.js",

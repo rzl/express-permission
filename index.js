@@ -1,4 +1,4 @@
-function ExpressPermission() {
+function ExpressPermissionMiddleware() {
 	var that = this
 	this.reqMethodName = 'somePermission'
 	this.getPermissions = function(req, res, cb) {
@@ -53,4 +53,4 @@ function ExpressPermission() {
 	}
 }
 
-module.exports = new ExpressPermission()
+module.exports = new ExpressPermissionMiddleware()
